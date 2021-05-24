@@ -1,0 +1,36 @@
+ES = Ecma Script
+
+E a evolucao do javascript, um js moderno, a linguagem js estava ficandoi
+muito popular e para que a linguagem evoluice, os criadores se filiaram ao 
+ecma international que e uma associacao especializada em padronizacao de sistemas
+se adaptando ao nome ecmascript
+
+es5 - 2012 - disponivel em todos os navegadores.
+
+todo o ano sai uma nova versao
+
+
+
+
+O ES6 = js
+
+Existem muitos sistemas operacionais que sao muito antigos e que nao suportam
+que n tem nem como instalar navegadores modernos, e tambem existem os navegadores
+lentos, mas o que queremos mesmo e dar acesso a todos os navegadores
+
+E ai que entra o babel que e um transcompilador que transforma o codigo moderno
+para codigo antigo no qual os navegadores conseguem interpretar
+
+por isso utilizamos o babel para uma versao mais antiga do Ecma script.
+
+O babel e uma solucao para os navegadores que nao conseguem acompanhar a tecnologia
+javascript.
+
+
+npm init -y
+
+para configurar o babel
+
+1. npm i @babel/core @babel/cli @babel/preset-env --save-dev
+2. node_modules/.bin/babel ./src/main.js -o ./public/bundle.js
+3. node_modules/.bin/babel ./src/main.js -o ./public/bundle.js -w

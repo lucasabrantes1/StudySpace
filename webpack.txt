@@ -1,0 +1,6 @@
+O webpack e um bundler que desenpenha o papel de gerar o arquivo bundler .js
+que agrupa os arquivos e aumenta o desenpenho
+
+
+npm install webpack webpack-cli webpack-dev-server @babel/polyfill --save-dev
+ 
